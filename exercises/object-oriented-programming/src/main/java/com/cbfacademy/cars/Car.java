@@ -37,7 +37,7 @@ public class Car {
     }// sets the colour of the car
 
     public String getDetails() {
-        return "This car is a" + make + " " + model + " " + colour + " " + year;
+        return "This car is a " + make + " " + model + " " + colour + " " + year;
     } // returns the car details, including the make, model, colour and year
 
 }
