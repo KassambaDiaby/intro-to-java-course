@@ -8,16 +8,20 @@ import com.cbfacademy.cars.Showroom;
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        // instanciate a showroom object
+        // instanciate a showroom object, need a new object of the showroom class
         Showroom showRoomObject = new Showroom();
 
+        // call getcars(), a method available to showroom object as it was specified in
+        // the shpwroom class
+        // store the result of getCars() in a variable carList of a List return type
+        // Inside the getCars method, there is code that creates and returns a list of
+        // Car objects
         List<Car> carList = showRoomObject.getCars();
 
+        // for each car (instance) in the carlist, get the car details and print it
         for (Car car : carList) {
             System.out.println(car.getDetails());
         }
 
-        // In the main method of the App class, instantiate a Showroom object, call
-        // getCars() and print the details for each Car instance in the list.
     }
 }
