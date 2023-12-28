@@ -6,7 +6,8 @@ public class Account {
     double amount;
     double requested;
 
-    // constructor that takes in the new account number and starting balance
+    // constructor (when creating an aboject) that takes in the new account number
+    // and starting balance
     public Account(int accountNumber, double balance) {
         this.accountNumber = accountNumber;
         this.balance = balance;
@@ -43,7 +44,7 @@ public class Account {
 
             // return the fund's I'm requesting aka give me the money
             return requested;
-        } else {// oyherwise i dont have enbough money and dont give me anything
+        } else {// otherwise i dont have enbough money and dont give me anything
             System.out.println("not enough funds");
         }
         return 0;
