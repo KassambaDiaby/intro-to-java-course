@@ -1,7 +1,7 @@
 package com.cbfacademy.accounts;
 
 public class Account {
-    private int accountNumber;
+    private int accountNumber;// a private access modifier so you need a getter to access the field
     private double balance;
     double amount;
     double requested;
@@ -22,9 +22,10 @@ public class Account {
         return accountNumber;
     };
 
-    // a deposit fund methos to deposit money into account and return the new
+    // a deposit fund method to deposit money into account and return the new
     // balance
     public double deposit(double amount) {
+        // balance += amount
         double newBalance = balance + amount;
         return newBalance;
     };

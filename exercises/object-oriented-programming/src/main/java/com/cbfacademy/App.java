@@ -12,7 +12,7 @@ public class App {
         Showroom showRoomObject = new Showroom();
 
         // call getcars(), a method available to showroom object as it was specified in
-        // the shpwroom class
+        // the showroom class
         // store the result of getCars() in a variable carList of a List return type
         // Inside the getCars method, there is code that creates and returns a list of
         // Car objects
