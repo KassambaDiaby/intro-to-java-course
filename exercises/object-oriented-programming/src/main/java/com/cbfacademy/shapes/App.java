@@ -2,6 +2,7 @@ package com.cbfacademy.shapes;
 
 import java.util.List;
 
+import com.cbfacademy.accounts.Bank;
 import com.cbfacademy.cars.Car;
 import com.cbfacademy.cars.Showroom;
 
@@ -23,6 +24,16 @@ public class App {
         for (Car car : carList) {
             System.out.println(car.getDetails());
         }
+
+        // Create a bank instance and then execute your bank's
+        // operations
+        Bank newBank = new Bank();
+        // open a savings acount
+        newBank.openSavingsAccount(456195, 300, 5);
+
+        newBank.addAccount(3462, 260);
+
+        System.out.println("my bank contains" + newBank);
 
     }
 }
