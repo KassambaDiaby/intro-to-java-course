@@ -6,7 +6,7 @@ public class Account {
     double amount;
     double requested;
 
-    // constructor (when creating an aboject) that takes in the new account number
+    // constructor (when creating an abject) that takes in the new account number
     // and starting balance
     public Account(int accountNumber, double balance) {
         this.accountNumber = accountNumber;

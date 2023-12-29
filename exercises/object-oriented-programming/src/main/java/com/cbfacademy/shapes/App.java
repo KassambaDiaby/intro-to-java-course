@@ -1,4 +1,4 @@
-package com.cbfacademy;
+package com.cbfacademy.shapes;
 
 import java.util.List;
 
@@ -8,6 +8,7 @@ import com.cbfacademy.cars.Showroom;
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello World!");
+
         // instanciate a showroom object, need a new object of the showroom class
         Showroom showRoomObject = new Showroom();
 
