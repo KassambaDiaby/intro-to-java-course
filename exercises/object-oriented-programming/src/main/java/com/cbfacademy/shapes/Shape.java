@@ -8,10 +8,10 @@ public abstract class Shape {
         this.name = name;
     }
 
-    // method that returns the area of the shape
+    // Abstract method that returns the area of the shape
     abstract double getArea(); // returns the area of the shape
 
-    // returns the name of the shape
+    // concrete returns the name of the shape
     String getName() {
         return name;
     }
